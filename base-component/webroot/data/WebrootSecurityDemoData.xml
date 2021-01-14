@@ -25,7 +25,18 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.security.UserPermission userPermissionId="ExamplePerm" description="Example Permission"/>
     <moqui.security.UserGroupPermission userGroupId="ADMIN" userPermissionId="ExamplePerm"
             fromDate="1265184000000" thruDate=""/>
-    <moqui.security.UserLoginHistory userId="EX_JOHN_DOE" fromDate="1265184000000" successfulLogin="Y"/>
+    <moqui.security.UserLoginHistory userId="EX_JOHN_DOE" fromDate="1265184111111" successfulLogin="Y"/>
+
+    <!-- Authentication Codes and Keys for John Doe-->
+    <moqui.security.UserAuthcFactor userId="EX_JOHN_DOE" fromDate="1265184000000" factorType="Time6" factorOption="30" factorKey="JBSWY3DPEHPK3PXP"/>
+    <moqui.security.UserAuthcFactor userId="EX_JOHN_DOE" fromDate="1265184000001" factorType="Hmac8" factorOption="1" factorKey="11111111"/>
+    <moqui.security.UserAuthcFactor userId="EX_JOHN_DOE" fromDate="1265184000002" factorType="Hmac8" factorOption="2" factorKey="11111112"/>
+    <moqui.security.UserAuthcFactor userId="EX_JOHN_DOE" fromDate="1265184000003" factorType="Hmac8" factorOption="3" factorKey="11111113"/>
+    <moqui.security.UserAuthcFactor userId="EX_JOHN_DOE" fromDate="1265184000004" factorType="Hmac8" factorOption="4" factorKey="11111114"/>
+    <moqui.security.UserAuthcFactor userId="EX_JOHN_DOE" fromDate="1265184000005" factorType="Hmac8" factorOption="5" factorKey="11111115"/>
+    <moqui.security.UserAuthcFactor userId="EX_JOHN_DOE" fromDate="1265184000006" factorType="Hmac8" factorOption="6" factorKey="11111116"/>
+    <moqui.security.UserAuthcFactor userId="EX_JOHN_DOE" fromDate="1265184000007" factorType="Hmac8" factorOption="7" factorKey="11111117"/>
+    <moqui.security.UserAuthcFactor userId="EX_JOHN_DOE" fromDate="1265184000008" factorType="Hmac8" factorOption="8" factorKey="11111118"/>
 
     <!-- ========== Artifact Tarpit Example ========== -->
     <moqui.security.ArtifactGroup artifactGroupId="ALL_SCREENS" description="All Screens"/>
