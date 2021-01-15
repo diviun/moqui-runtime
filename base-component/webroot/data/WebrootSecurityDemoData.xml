@@ -27,6 +27,17 @@ along with this software (see the LICENSE.md file). If not, see
             fromDate="1265184000000" thruDate=""/>
     <moqui.security.UserLoginHistory userId="EX_JOHN_DOE" fromDate="1265184000000" successfulLogin="Y"/>
 
+    <!-- Authentication Codes and Keys for John Doe-->
+    <moqui.security.UserAuthcFactor userId="EX_JOHN_DOE" fromDate="1265184000000" authcType="TOTP_6" authcOption="30" authcSecret="JBSWY3DPEHPK3PXP"/>
+    <moqui.security.UserAuthcFactor userId="EX_JOHN_DOE" fromDate="1265184000001" authcType="HOTP_8" authcOption="1" authcSecret="11111111"/>
+    <moqui.security.UserAuthcFactor userId="EX_JOHN_DOE" fromDate="1265184000002" authcType="HOTP_8" authcOption="2" authcSecret="11111112"/>
+    <moqui.security.UserAuthcFactor userId="EX_JOHN_DOE" fromDate="1265184000003" authcType="HOTP_8" authcOption="3" authcSecret="11111113"/>
+    <moqui.security.UserAuthcFactor userId="EX_JOHN_DOE" fromDate="1265184000004" authcType="HOTP_8" authcOption="4" authcSecret="11111114"/>
+    <moqui.security.UserAuthcFactor userId="EX_JOHN_DOE" fromDate="1265184000005" authcType="HOTP_8" authcOption="5" authcSecret="11111115"/>
+    <moqui.security.UserAuthcFactor userId="EX_JOHN_DOE" fromDate="1265184000006" authcType="HOTP_8" authcOption="6" authcSecret="11111116"/>
+    <moqui.security.UserAuthcFactor userId="EX_JOHN_DOE" fromDate="1265184000007" authcType="HOTP_8" authcOption="7" authcSecret="11111117"/>
+    <moqui.security.UserAuthcFactor userId="EX_JOHN_DOE" fromDate="1265184000008" authcType="HOTP_8" authcOption="8" authcSecret="11111118"/>
+
     <!-- ========== Artifact Tarpit Example ========== -->
     <moqui.security.ArtifactGroup artifactGroupId="ALL_SCREENS" description="All Screens"/>
     <moqui.security.ArtifactGroupMember artifactGroupId="ALL_SCREENS" artifactName=".*" nameIsPattern="Y"

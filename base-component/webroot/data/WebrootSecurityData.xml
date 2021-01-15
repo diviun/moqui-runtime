@@ -25,4 +25,8 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.Enumeration enumId="qz.print.enabled" description="QZ Print Enabled (true/false)" enumTypeId="UserPreferenceKey"/>
     <moqui.basic.Enumeration enumId="qz.printer.main.active" description="QZ Active Main Printer Name" enumTypeId="UserPreferenceKey"/>
     <moqui.basic.Enumeration enumId="qz.printer.label.active" description="QZ Active Label Printer Name" enumTypeId="UserPreferenceKey"/>
+
+    <moqui.basic.Enumeration description="Hmac-based one-time password securely generated with 8 digits" enumId="HOTP_8" enumTypeId="AuthcTypeEnumId"/>
+    <moqui.basic.Enumeration description="Time-based one-time password securely generated with 6 digits" enumId="TOTP_6" enumTypeId="AuthcTypeEnumId"/>
+
 </entity-facade-xml>
